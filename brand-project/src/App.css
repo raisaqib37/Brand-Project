@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+.container {
+  display: flex;
+  height: 82px;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+li {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+button {
+  width: 60px;
+  height: 24px;
+  background-color: var(--red);
+  border: hidden;
+  color: white;
+}
+button:hover {
+  background-color: rgb(128, 0, 0);
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+  margin-top: 40px;
+}
+.hero-image{
+margin-top: 50px;
+}
+.hero-content h1 {
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+  text-align: left;
+  max-width: 595px;
+  max-height: 306px;
+  line-height: 102px;
+}
+.hero-content p{
+  max-width: 404px;
+  font-weight: 600;
+  margin-left: 10px;
+
+}
+.hero-btns button{
+  width: 118px;
+  height: 31px;
+  margin-right: 40px;
+  font-size: 19px;
+  /* line-height: 19px; */
+}
+.hero-btns .category{
+  background: #ffffff;
+  color: var(--gray);
+  border: 2px solid var(--gray);
+}
+.shopping{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.imgs{
+  display: flex;
+  gap: 10px;
+}
